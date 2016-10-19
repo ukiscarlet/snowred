@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+  </head><body>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <h2>會員登入</h2>
+            <form class="form-horizontal text-right" role="form">
+              <div class="form-group">
+                <div class="col-sm-3">
+                  <label for="inputEmail3" class="control-label">帳號</label>
+                </div>
+                <div class="col-sm-9">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-3">
+                  <label for="inputPassword3" class="control-label">密碼</label>
+                </div>
+                <div class="col-sm-9">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">Remember me</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-10 col-sm-offset-2 text-center">
+                  <button type="submit" class="btn btn-success">Sign in</button>
+                  <a class="btn btn-danger"><i class="fa fa-fw fa-question"></i>忘記密碼<br></a>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-6">
+            <h2 contenteditable="true">註冊成為會員</h2>
+            <form class="form-horizontal text-right" role="form">
+              <div class="form-group">
+                <div class="col-sm-3">
+                  <label for="inputEmail3" class="control-label">姓名</label>
+                </div>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" id="inputName" placeholder="Name">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-3">
+                  <label for="inputPassword3" class="control-label">電子郵件</label>
+                </div>
+                <div class="col-sm-9">
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email / Account">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-3">
+                  <label for="inputPassword3" class="control-label">密碼</label>
+                </div>
+                <div class="col-sm-9">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-3">
+                  <label for="inputPassword3" class="control-label">聯絡電話</label>
+                </div>
+                <div class="col-sm-9">
+                  <input type="password" class="form-control" id="inputPhone" placeholder="Phone number">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-3">
+                  <label for="inputPassword3" class="control-label">通訊地址</label>
+                </div>
+                <div class="col-sm-9 text-left">
+                  <div class="btn-group btn-group-lg">
+                    <a class="btn btn-warning dropdown-toggle" data-toggle="dropdown"> 國家 <span class="fa fa-caret-down"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li>
+                        <a href="#">Taiwan</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="btn-group btn-group-lg">
+                    <a class="btn btn-warning dropdown-toggle" data-toggle="dropdown"> 城市 <span class="fa fa-caret-down"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li>
+                        <a href="#">Kaohsiung</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="btn-group btn-group-lg">
+                    <a class="btn btn-warning dropdown-toggle" data-toggle="dropdown"> 郵遞區號 <span class="fa fa-caret-down"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li>
+                        <a href="#">804</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" id="inputAdress" placeholder="Address">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-3">
+                  <label for="inputPassword3" class="control-label">生日</label>
+                </div>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" id="inputBirthday" placeholder="Birthday">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-3">
+                  <label for="inputPassword3" class="control-label">性別</label>
+                </div>
+                <div class="col-sm-9 text-left">
+                  <div class="btn-group btn-group-lg">
+                    <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> 男 <span class="fa fa-caret-down"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li>
+                        <a href="#">女</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-9 col-sm-offset-3 text-left">
+                  <button type="submit" class="btn btn-lg btn-primary">register</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+</body></html>
