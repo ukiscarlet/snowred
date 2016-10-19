@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+/*------------------------------------ 
+    1. Reset 
+    2. Top 
+    3. Content 
+    4. Footer 
+    
+  ----------------------------------- */
+  
+ 
+/***    Top  ***/ 
+  
+#Top-logo
+{	
+    /*background-image: url(../image/bar.png);
+	background-repeat: no-repeat;	
+	width: 300px;
+	height: 50px; */
+	background-image:url(../img/bar.png);
+	background-repeat: no-repeat; 
+	margin: 0px auto;
+	width: 300px;	
+	height: 50px;
+}
+
+.Top-icon 
+{
+	height: 30px;	
+}
+
+#icon-left img
+{
+	float: left;
+	padding-left:10px;	
+}
+
+#icon-right img
+{
+	float: right;
+	padding-right:10px;
+}
+
+#icon-right span
+{
+	float: right;
+	padding-right:10px;
+}
+
+/***    Content Fixbar  ***/
+
+.fixbar
+{
+	border-radius: 6px;
+	color:white;
+	height:12%;	
+	position:fixed;	
+	right:0;	
+	text-align:center;	
+	width:2.5%;	
+	
+}
+
+#news
+{
+	line-height: 1.3;
+	background-color: red;
+    top:25%;
+}
+
+#shoppingcar
+{
+	line-height: 6;
+	background-color: #00C3FF;
+	top:37%;
+}
+
+/***   BootStrap Media content  ***/
+
+.pull-left
+{
+    margin-top:10%;
+}
+.media-body
+{
+	float:left;
+	width:50%;
+}
+.media-price
+{	
+	float:right;
+	margin-top:10%;
+	width:30%;
+}
+
+.media-heading
+{
+	width:60%;
+}
+
+/***    Content Progress  ***/
+.progress
+{
+	margin-bottom: 1px;
+}
+
+#progresstext
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+/***   Modal  ***/
+/***   .modal原文件有改動  ***/
+/***   並將left:0改動在html裡  ***/
+
+.modal-sm-my
+{
+	width:330px;	
+}
+
+.modal-sm-shpcar
+{
+	width:400px;	
+}
+
+
+/***    BootStrap Navbar detail  ***/ 
+.nav > li > a 
+{
+	padding: 5px 15px;
+}
+
+.navbar-brand {
+  
+  height: 15px;
+  padding: 5px 15px;
+ 
+}
+
+/***    BootStrap Breadcrumb detail  ***/
+.breadcrumb {
+  padding: 15px 15px;
+  margin-bottom: 5px; 
+  background-color: none; 
+  vertical-align:middle;
+}
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: none;
+  
+}
+
+/***    BootStrap Searchbox  ***/
+
+.form-control
+{
+  border-radius:15px; 
+}
+
+/***    BootStrap Inputdroop  ***/
+.input-lg {
+  padding:0 5px;
+  height: 10px;  
+  font-size: 14px;
+  line-height: 1.3333333;
+  border-radius: 6px;  
+}
+select.input-lg {
+  height: none;
+  
+}
+
+/***    BootStrap Icon  ***/
+.glyphicon.glyphicon-earphone {
+   vertical-align:middle;
+	
+}
+
+.glyphicon.glyphicon-envelope {
+    vertical-align:middle;
+}
+
+.glyphicon.glyphicon-headphones {
+    font-size: 20px;
+}
+
+.glyphicon.glyphicon-user
+{
+	font-size: 30px;
+}
+
+.glyphicon.glyphicon-credit-card
+{
+	font-size: 25px;
+}
+
+#top-icon
+{
+	font-size: 30px;
+}
+
